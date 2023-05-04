@@ -37,3 +37,23 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.bg-ecomint-footer{
+  background-color: #000000;
+}
+
+.bg-ecomint-green{
+  background-color: #05B050;
+}
+
+.fg-ecomint-green{
+  color: #05B050;
+}
+
+.fg-ecomint-green:hover{
+  color: #BEE4BF;
+}
+
+.bg-ecomint-green:hover{
+  background-color: #BEE4BF;
+}
