@@ -18,7 +18,7 @@ export default function Hero() {
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Ecomint</span>
+              <span className="sr-only">EcoMint</span>
               <img
                 className="h-8 w-auto"
                 src="./sun.png"
@@ -127,7 +127,7 @@ export default function Hero() {
           </div> */}
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-             Ecomint
+             EcoMint
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Sustainable investments for everyone!
