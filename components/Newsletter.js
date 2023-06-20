@@ -14,11 +14,11 @@
 */
 export default function Newsletter() {
     return (
-      <div className="bg-white py-16 sm:py-24 lg:py-32">
+      <div className="bg-ecomint-green py-16 sm:py-24 lg:py-32">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
           <div className="max-w-xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:col-span-7">
-            <h2 className="inline sm:block lg:inline xl:block">Wanna stay up to date?</h2>{' '}
-            <p className="inline sm:block lg:inline xl:block">Sign up for our newsletter.</p>
+            <h2 className="inline sm:block lg:inline xl:block">Du möchtest als Erster von neuen Projekten erfahren?</h2>{' '}
+            <p className="inline sm:block lg:inline xl:block">Dann jetzt für unseren Newsletter anmelden.</p>
           </div>
           <form className="w-full max-w-md lg:col-span-5 lg:pt-2">
             <div className="flex gap-x-4">
@@ -38,13 +38,13 @@ export default function Newsletter() {
                 type="submit"
                 className="flex-none rounded-md bg-ecomint-green px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Subscribe
+                Senden
               </button>
             </div>
             <p className="mt-4 text-sm leading-6 text-gray-900">
-              We care about your data. Read our{' '}
+              Deine Daten sind uns wichtig. Hier findest Du unsere{' '}
               <a href="#" className="font-semibold fg-ecomint-green">
-                privacy&nbsp;policy
+                Datenschutzerklärung
               </a>
               .
             </p>
