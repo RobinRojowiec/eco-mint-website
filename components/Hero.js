@@ -5,8 +5,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   // { name: 'Product', href: '#' },
   // { name: 'Features', href: '#' },
-  // { name: 'Marketplace', href: '#' },
-  // { name: 'Company', href: '#' },
+   { name: 'Marketplace', href: '#' },
+   { name: 'Company', href: '#' },
 ]
 
 export default function Hero() {
@@ -130,7 +130,7 @@ export default function Hero() {
              EcoMint
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Sustainable investments for everyone!
+              Investments in die nachhaltige Energie von Morgen - und für JEDEN! 
             </p>
 {/*             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
