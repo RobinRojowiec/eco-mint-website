@@ -16,7 +16,7 @@ export default function Newsletter() {
     return (
       <div className="bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
-          <div className="max-w-xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:col-span-7">
+          <div className="max-w-xl text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:col-span-7">
             <h2 className="inline sm:block lg:inline xl:block">Du möchtest als Erster von neuen Projekten erfahren?</h2>{' '}
             <p className="inline sm:block lg:inline xl:block">Dann jetzt für unseren Newsletter anmelden.</p>
           </div>
@@ -32,7 +32,7 @@ export default function Newsletter() {
                 autoComplete="email"
                 required
                 className="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                placeholder="Enter your email"
+                placeholder="Bitte eMail-Adresse eingeben"
               />
               <button
                 type="submit"
@@ -43,7 +43,7 @@ export default function Newsletter() {
             </div>
             <p className="mt-4 text-sm leading-6 text-gray-900">
               Deine Daten sind uns wichtig. Hier findest Du unsere{' '}
-              <a href="#" className="font-semibold fg-ecomint-green">
+              <a href="data-privacy" className="font-semibold fg-ecomint-green">
                 Datenschutzerklärung
               </a>
               .
