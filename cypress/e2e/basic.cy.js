@@ -5,6 +5,6 @@ describe('sample test', () => {
 
   it('displays the resources text', () => {
     cy.get('h1')
-    .contains('Ecomint');
+    .contains('EcoMint');
   })
 })
