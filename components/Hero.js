@@ -3,10 +3,9 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  // { name: 'Product', href: '#' },
-  // { name: 'Features', href: '#' },
-  // { name: 'Marketplace', href: '#' },
+     { name: 'Home', href: '/'  },
      { name: 'Unternehmen', href: 'company' },
+     { name: 'Kontakt', href: 'contact' },
 ]
 
 export default function Hero() {
@@ -17,7 +16,7 @@ export default function Hero() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">EcoMint</span>
               <img
                 className="h-8 w-auto"
@@ -130,7 +129,7 @@ export default function Hero() {
              EcoMint
             </h1>
             <p className="mt-6 text-lg font-semibold leading-8 text-gray-300">
-              Investments in die nachhaltige Energie von Morgen - für JEDEN! 
+              Jetzt gemeinsam und aktiv die Energiewende gestalten!
             </p>
 {/*             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

@@ -1,22 +1,8 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 export default function Newsletter() {
     return (
-      <div className="bg-white py-16 sm:py-24 lg:py-32">
+      <div className="bg-ecomint-lightgreen py-6 sm:py-2 lg:py-6">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
-          <div className="max-w-xl text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:col-span-7">
+          <div className="max-w-xl text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl lg:col-span-6">
             <h2 className="inline sm:block lg:inline xl:block">Du möchtest als Erster von neuen Projekten erfahren?</h2>{' '}
             <p className="inline sm:block lg:inline xl:block">Dann jetzt für unseren Newsletter anmelden.</p>
           </div>

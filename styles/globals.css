@@ -46,7 +46,19 @@ code {
   background-color: #05B050;
 }
 
+.bg-ecomint-green-nonHover{
+  background-color: #05B050;
+}
+
+.bg-ecomint-lightgreen{
+  background-color: #BEE4BF;
+}
+
 .fg-ecomint-green{
+  color: #05B050;
+}
+
+.text-ecomint-green{
   color: #05B050;
 }
 
@@ -56,4 +68,9 @@ code {
 
 .bg-ecomint-green:hover{
   background-color: #BEE4BF;
+}
+
+.ecomint-green{
+  color: #05B050;
+  
 }
