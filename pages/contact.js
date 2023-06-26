@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import Hero from '@components/Hero'
-import ContactForm from '@components/ContactForm'
+import Header from '@components/General/Header'
+import Footer from '@components/General/Footer'
+import Hero from '@components/General/Hero'
+import ContactForm from '@components/Contact/ContactForm'
 
 export default function Contact() {
   return (

@@ -3,8 +3,8 @@ import { CheckCircleIcon } from '@heroicons/react/20/solid'
 const benefits = [
   'Investment ab kleinen Beträgen',
   'Keine Mindesthaltedauer',
-  'Feste & planbare Auszahlungen',
-  'Sichere Rendite ohne Spekulation',
+  'Jederzeit auf entsprechenden Plattformen handelbar',
+  'Attraktive Rendite',
 ]
 
 export default function IntroDetailSection2() {
@@ -15,8 +15,8 @@ export default function IntroDetailSection2() {
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-0">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Du möchtest investieren?</h2>
               <p className="mt-6 text-xl leading-8 text-gray-600">
-                Profitiere von der Energiewende und investiere unmittelbar und ohne Umwege direkt in Projekte zum Aus- und Aufbau erneuerbarer Energien.
-                Dein Investment fließt zu 100% in das von Dir ausgewählte Projekt.
+                Leiste persönlich einen wesentlichen Beitrag die Klimaneutralität zu erreichen und partizipiere dabei 
+                gleichzeitig an attraktiven Renditen der Token-Investments. 
               </p>
 
               <p className="mt-6 text-base font-bold leading-7 text-ecomint-green">

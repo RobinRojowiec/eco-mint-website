@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Footer from '@components/Footer'
-import Hero from '@components/Hero'
-import ImprintText from '@components/ImprintText'
+import Footer from '@components/General/Footer'
+import Hero from '@components/General/Hero'
+import ImprintText from '@components/Imprint/ImprintText'
 
 export default function Imprint() {
   return (

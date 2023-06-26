@@ -28,13 +28,13 @@ export default function IntroDetailSection1() {
 
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-0">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Du bist Projektentwickler?</h2>
-              <p className="mt-6 text-xl leading-8 text-gray-600">
-                Gemeinsam finanzieren wir Dein Projekt auf dem Weg zur Energiewende ohne Umwege und mit dem klaren Ziel 100% erneuerbare 
-                Energien zu erreichen. Dabei steht Geschwindigkeit und eine unkomplizierte Abwicklung für uns im Vordergrund.  
+              <p className="mt-6 text-xl leading-8 text-gray-600"> 
+                Gemeinsam finanzieren wir Dein Projekt auf dem Weg zu mehr Klimaneutralität ohne Umwege und mit dem klaren Ziel 100% erneuerbare 
+                Energien zu erreichen. Dabei steht Geschwindigkeit und eine unkomplizierte Abwicklung für uns im Vordergrund.
               </p>
               
               <p className="mt-6 text-base font-bold leading-7 text-ecomint-green">
-              Nutze die Power der Gemeinschaft und treibe Dein Projekt voran! 
+               Nutze die Power von EcoMint und treibe Dein Projekt voran!
               </p>
 
               <ul

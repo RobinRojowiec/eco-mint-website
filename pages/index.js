@@ -1,12 +1,14 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import Hero from '@components/Hero'
-import IntroMain from '@components/IntroMain'
-import Newsletter from '@components/Newsletter'
-import MainHeadline from '@components/MainHeadline'
-import IntroDetailSection1 from '@components/IntroDetailSection1'
-import IntroDetailSection2 from '@components/IntroDetailSection2'
+import Header from '@components/General/Header'
+import Footer from '@components/General/Footer'
+import Hero from '@components/General/Hero'
+import IntroMain from '@components/Home/IntroMainScroll'
+import Newsletter from '@components/Home/Newsletter'
+import MainHeadline from '@components/Home/MainHeadline'
+import IntroDetailSection1 from '@components/Home/IntroDetailSection1'
+import IntroDetailSection2 from '@components/Home/IntroDetailSection2'
+import MainDevider from '@components/Home/MainDevider'
+import IntroMainDetailGrid from '@components/Home/IntroMainDetailGrid'
 
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
       <Hero />
       <MainHeadline />
       <IntroMain />
+      <MainDevider />
+      <IntroMainDetailGrid />
       <Newsletter />
       <IntroDetailSection1 />
       <IntroDetailSection2 />
