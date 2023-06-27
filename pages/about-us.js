@@ -8,6 +8,7 @@ import AboutTeam from '@components/AboutUs/AboutTeam'
 export default function Company() {
   return (
     <div className="flex flex-col min-h-screen">
+      <title>Über Uns</title>
       <Hero />
       <CompanyContent />
       <AboutTeam />

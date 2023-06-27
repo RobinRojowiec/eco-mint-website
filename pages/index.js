@@ -14,6 +14,7 @@ import IntroMainDetailGrid from '@components/Home/IntroMainDetailGrid'
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
+      <title>EcoMint | Investments in erneuerbare Energien für alle</title>
       <Hero />
       <MainHeadline />
       <IntroMain />
