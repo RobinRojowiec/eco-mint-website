@@ -63,11 +63,13 @@ code {
 }
 
 .fg-ecomint-green:hover{
-  color: #BEE4BF;
+  /*  color: #BEE4BF;   */
+  color: #69cf96;
 }
 
 .bg-ecomint-green:hover{
-  background-color: #BEE4BF;
+  /* background-color: #BEE4BF; */
+  background-color: #69cf96;
 }
 
 .ecomint-green{
