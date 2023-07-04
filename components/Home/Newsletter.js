@@ -6,7 +6,7 @@ export default function Newsletter() {
             <h2 className="inline sm:block lg:inline xl:block">Du möchtest als Erster von neuen Projekten erfahren?</h2>{' '}
             <p className="inline sm:block lg:inline xl:block">Dann jetzt für unseren Newsletter anmelden.</p>
           </div>
-          <form className="w-full max-w-md lg:col-span-5 lg:pt-2">
+          <form className="w-full max-w-md lg:col-span-5 lg:pt-2" netlify>
             <div className="flex gap-x-4">
               <label htmlFor="email-address" className="sr-only">
                 Email address
