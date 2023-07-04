@@ -35,6 +35,11 @@ export default function Newsletter() {
               .
             </p>
           </form>
+
+          <form className="hidden-newsletter" netlify>
+               <input type="hidden" name="form-name" value="name_of_my_form" />
+          </form>
+
         </div>
       </div>
     )
