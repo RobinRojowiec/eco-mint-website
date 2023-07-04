@@ -7,6 +7,7 @@ export default function Newsletter() {
             <p className="inline sm:block lg:inline xl:block">Dann jetzt für unseren Newsletter anmelden.</p>
           </div>
           <form className="w-full max-w-md lg:col-span-5 lg:pt-2" netlify>
+          <input type="hidden" name="form-name" value="contact"/>
             <div className="flex gap-x-4">
               <label htmlFor="email-address" className="sr-only">
                 Email address
@@ -36,8 +37,8 @@ export default function Newsletter() {
             </p>
           </form>
 
-          <form className="hidden-newsletter" netlify>
-               <input type="hidden" name="form-name" value="name_of_my_form" />
+          <form name="newsletter-hidden" netlify hidden>
+               <input type="email" name="email" />
           </form>
 
         </div>
